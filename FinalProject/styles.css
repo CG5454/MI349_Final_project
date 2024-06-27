@@ -1,0 +1,148 @@
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #054761;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 1em; 
+    text-align: left;
+    font-size: 20px;
+}
+
+header h1 .h1-header {
+    text-decoration: none;
+    color: #054761;
+}
+
+header h2 {
+    text-align: center;
+}
+
+header nav {
+    padding-right: 1em; 
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    text-align: right;
+    color: #054761; 
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 6em 1em 1em 1em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    flex-direction: column;
+}
+
+main h3 #main-h3 {
+    text-align: left;
+}
+
+#shoe-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1em;
+    width: 100%;
+    padding-bottom: 1em;
+    color: #054761;
+}
+
+
+
+.shoe {
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+footer {
+    color: #054761;
+    text-align: left;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-top: 3em; 
+}
+/* Add Pair Form Styles */
+#add-pair {
+    width: 100%;
+    max-width: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+
+#add-shoe-form {
+    color: #054761;
+}
+
+#add-pair h2 {
+    text-align: center;
+    color: #054761;
+}
+
+button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    margin-top: 1em;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #555;
+}

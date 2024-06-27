@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Pair</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html" class="h1-header">My Shoe Inventory</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="add.html">Add a Pair</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="add-pair">
+            <h2>Add Your Shoes</h2>
+            <form id="add-shoe-form">
+                <label for="shoe-title">Shoe Title:</label>
+                <input type="text" id="shoe-title" name="shoe-title" required>
+                <label for="size">Size:</label>
+                <input type="text" id="size" name="size" required>
+                <label for="sku">SKU:</label>
+                <input type="text" id="sku" name="sku" required>
+                <label for="where-bought">Where Did You Buy:</label>
+                <input type="text" id="where-bought" name="where-bought" required>
+                <label for="price-paid">Price Paid:</label>
+                <input type="number" id="price-paid" name="price-paid" required>
+                <label for="shoe-image">Upload Image:</label>
+                <input type="file" id="shoe-image" name="shoe-image" accept="image/*" required>
+                <button type="submit">Add to Inventory</button>
+            </form>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
